@@ -8,13 +8,6 @@
     "footer footer"
 
 }
-.grid div:nth-child(even) {
-    
-}
-
-.grid div:nth-child(odd) {
-    
-}
 
 .navbar {
     grid-area: navbar;
@@ -30,7 +23,7 @@
     grid-area: search;
     justify-self: center;
     border-color: #555;
-    border: 1px;
+    border: 4px;
     border-radius: 10px;
 }
 
