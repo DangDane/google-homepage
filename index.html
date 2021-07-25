@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
         <title>Google Search</title>
 
@@ -9,18 +13,26 @@
 
         <div class="grid">
             <div class="navbar">
-                <a href="">One</a>
-                <a href="">Two</a>
-                <a href="">Three</a>
-                <a href="">Four</a>
+                <ul>
+                    <li><a class="nav-link" href="">About</a></li>
+                    <li><a class="nav-link" href="">Store</a></li>
+                    <li><a class="nav-link" href="">Gmail</a></li>
+                    <li><a class="nav-link" href="">Images</a></li>
+                    <li><button type="menu"></li>
+                    <li><button>Sign in</button></li>
+                </ul>
             </div>
+
             <div class="logo"><img alt= "Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
-            <div class="search">
-                <form action="/form/submit" method="GET"> 
-                    <input type="text" name="text" class="search" placeholder="Google Search">
-                    <input type="submit" name="submit" class="submit" value="Search">
-                  </form>
+            
+            <div class="search-box">
+                <input type="text" class="search" placeholder="Search...">
+                <div class="icons">
+                   <button border-radius="50%" type="submit" span class="material-icons">search</span></button>
+
+                </div>
             </div>
+           
             <div class="footer">
                 <a href="">This</a>
                 <a href="">Is</a>
