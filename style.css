@@ -1,0 +1,40 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "navbar navbar"
+    "logo logo"
+    "search search"
+    "footer footer"
+
+}
+.grid div:nth-child(even) {
+    
+}
+
+.grid div:nth-child(odd) {
+    
+}
+
+.navbar {
+    grid-area: navbar;
+
+}
+
+.logo {
+    grid-area: logo;
+    justify-self: center;
+}
+
+.search {
+    grid-area: search;
+    justify-self: center;
+    border-color: #555;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #555
+}
